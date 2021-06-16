@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        include partials/meta&links
+            include css/sign.css
+    body
+        include partials/header
+        #container
+            #form
+                h3 Login With Your Account
+                form(action='/acc/in' method='post')
+                    input.re(type="email" placeholder="Enter Your email" required name='email')
+                    input.re(type="password" name="pass" placeholder='Enter Password' required)
+                    button.btn(type='submit') Login
+            h5 Forgot Password?
+            a(href='/s')
+                button.btn Create New Account

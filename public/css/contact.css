@@ -1,0 +1,24 @@
+.label {
+    display: block;
+    margin: 2px 7px;
+}
+input, textarea {
+    font-family: Serif;
+    margin: 7px;
+    border: 2px solid grey;
+    border-radius: 7px;
+    text-align: center;
+    outline: none;
+}
+textarea {
+    padding: 7px;
+}
+input {
+    width: 170px;
+    height: 25px;
+}
+button{
+    width: 50px;
+    height: 30px;
+    background-color: #898989;
+}

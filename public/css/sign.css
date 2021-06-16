@@ -1,0 +1,50 @@
+#form {
+    border: 2px solid red;
+    border-radius: 20px;
+    border-radius: 20px;
+    margin: 25px auto;
+    width: 300px;
+}
+form input {
+    font-family: 'Newsreader', serif;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid grey;
+    border-radius: 7px;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    outline: none;
+}
+.btn {
+    font-family: 'Newsreader', serif;
+    background-color: black;
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 25px;
+    border: 2px solid grey;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+#form h3 {
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: underline grey;
+}
+.re {
+    border: 2px solid #00ccff;
+}
+#form p {
+    font-size: 7px;
+    text-align: center;
+}
+h5{
+    text-align: center;
+    color: red;
+    text-decoration: underline red;
+}

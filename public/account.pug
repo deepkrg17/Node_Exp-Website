@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+    head
+        include partials/meta&links
+            include css/home.css
+    body
+        include partials/header
+        #container
+            h3(align='center') Account
+            p=user.name
+            p=user.email

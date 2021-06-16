@@ -1,0 +1,23 @@
+doctype html
+html(lang="en")
+    head
+        include partials/meta&links
+            include css/sign.css
+    body
+        include partials/header
+        #container
+            #form
+                h3 Create Account
+                form(action='/s' method='POST')
+                    input.re(type="text" placeholder="Enter Your Name" required name='name')
+                    input.re(type="text" placeholder="Enter Your Gender" required name='gender')
+                    input.re(type="number" placeholder="Enter Your Age" required name='age')
+                    input.re(type="email" placeholder="Enter Your email" required name='email')
+                    input(type="number" placeholder="Enter Your Number" name='phone')
+                    input.re(type="password" name="password" placeholder='Enter Password' required)
+                    input.re(type="password" name="confirmpass" placeholder='Confirm Password' required)
+                    button.btn(type="submit") Create Account
+                    input.btn(type="reset" name="Reset")
+                    p *sky blue bordered spaces are required.
+            a(href='/acc/in')
+                h5 Already Have an Account?

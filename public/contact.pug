@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+    head
+        title Contact
+        include partials/meta&links
+            include css/contact.css
+    body
+        include partials/header
+        #container
+            form
+                label.label(for="name") Your Name :
+                input(type="text" name="name" id="name" placeholder="Enter Your Name")
+                label.label(for="email") Your Email :
+                input(type="email" name="email" id="email" placeholder="Enter Your Email")
+                label.label(for="cause") Message :
+                textarea(name="cause" id='cause' rows="8" cols="40" placeholder="Your Message")
+                center
+                    button(type="submit") Send
